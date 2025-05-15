@@ -150,19 +150,31 @@ paths:
                   $ref: '#/components/schemas/Message'
   /api/activities/notifications:
     get:
+<<<<<<< HEAD
       description: 'Return a feed of activity for all of the people I follow'
+=======
+      description: 'Return activity for all my followers'
+>>>>>>> e9934a565871ef9142997632ae9c0fbe2f6d7709
       tags:
         - activities
       parameters: []
       responses:
         '200':
+<<<<<<< HEAD
           description: Returns an array of activities 
+=======
+          description: Returns an array of activities"
+>>>>>>> e9934a565871ef9142997632ae9c0fbe2f6d7709
           content:
             application/json:
               schema:
                 type: array
                 items:
                   $ref: '#/components/schemas/Activity'
+<<<<<<< HEAD
+=======
+     
+>>>>>>> e9934a565871ef9142997632ae9c0fbe2f6d7709
 
 components:
   schemas:
